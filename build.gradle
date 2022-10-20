@@ -1,6 +1,6 @@
 plugins {
-	id 'org.springframework.boot' version '2.7.4'
-	id 'io.spring.dependency-management' version '1.0.13.RELEASE'
+	id 'org.springframework.boot' version '2.7.5'
+	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
 	id 'java'
 }
 
@@ -14,13 +14,13 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-	runtimeOnly 'org.testcontainers:testcontainers:1.17.3'
-	runtimeOnly 'org.testcontainers:postgresql:1.17.3'
+	runtimeOnly 'org.testcontainers:testcontainers:1.17.5'
+	runtimeOnly 'org.testcontainers:postgresql:1.17.5'
 
 	runtimeOnly 'org.postgresql:postgresql'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	testRuntimeOnly 'org.testcontainers:testcontainers:1.17.3'
-	testRuntimeOnly 'org.testcontainers:postgresql:1.17.3'
+	testRuntimeOnly 'org.testcontainers:testcontainers:1.17.5'
+	testRuntimeOnly 'org.testcontainers:postgresql:1.17.5'
 }
 
 tasks.named('test') {
