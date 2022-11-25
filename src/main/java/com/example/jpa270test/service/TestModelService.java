@@ -4,7 +4,7 @@ import com.example.jpa270test.model.TestModel;
 import com.example.jpa270test.repository.TestModelRepository;
 import java.util.UUID;
 import java.util.logging.Logger;
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Lazy;
